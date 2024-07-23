@@ -15,4 +15,5 @@ authors = [
 requires-python = ">=3.8"
 dependencies = [
     "h5py",
+    "numpy",
 ]
