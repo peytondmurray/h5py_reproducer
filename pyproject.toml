@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "meson-python",
+    "setuptools_scm",
+    "Cython >= 3.0.10",
+]
+build-backend = "mesonpy"
+
+[project]
+name = "h5py-reproducer"
+dynamic = ["version"]
+authors = [
+  { name="Peyton Murray" },
+]
+requires-python = ">=3.8"
+dependencies = [
+    "h5py",
+]
